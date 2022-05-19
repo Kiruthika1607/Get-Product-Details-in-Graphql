@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="training_customevent_event_blog">
+        <observer name="training_blog_custom"
+                  instance="Training\Customevent\Observer\GetBlog"/>
+    </event>
+</config>
