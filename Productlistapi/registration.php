@@ -1,7 +1,6 @@
 <?php
-
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Training_Customevent',
+    'Training_Productlistapi',
     __DIR__
 );
